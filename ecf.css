@@ -17,19 +17,47 @@ h1{
     color: #444;
 }
 
- wrapper{
+h2{
+    font-size: 55px;
+    color: #444
+}
+
+h3{
+    font-size: 30px;
+    color:#444;
+}
+
+h4{
+    font-size: 30px;
+    color: #444;
+}
+
+p{
+    line-height: 20px;
+    color: #777;
+}
+
+.clear{
+    clear: both;
+}
+
+ .wrapper{
      width: 940px;
      margin: 0 auto;
      padding : 0 10px;
  }
+
+a{
+    text-decoration : none;
+    color: #444;
+}
+
  ul{
      list-style: none;
  }
 
- a{
-     text-decoration : none;
-     color: #444;
- }
+
+
 /*HEADER*/
 
 header
@@ -56,10 +84,7 @@ header nav ul li a{
     font-weight: bold;
     margin-right: 20px;
 }
-h2{
-    font-size: 55px;
-    color: #444
-}
+
 
 /*MAIN IMAGE */
 
@@ -96,7 +121,161 @@ h2{
     background: #02B8DD
 }
 
+/* STEPS */
+
+#missions ul{
+    margin :80px 0;
+}
+#missions ul li{
+    width:300px;
+    float:left;
+    padding-top: 140px;
+   text-align: center;
+    margin-right: 10px;
+}
+
+#missions h4{
+
+    text-transform: uppercase;
+    margin-bottom: 20px
+}
+
+#missions p{
+    margin-bottom: 20px;
+}
+
+#mission-1{
+    background: url(.idea/images/icone1.png) no-repeat top center;
+}
+
+#mission-2{
+    background: url(.idea/images/icone2.png) no-repeat top center;
+}
+
+#mission-3{
+    background: url(.idea/images/icone3.png) no-repeat top center;
+}
 
 
+
+/* TEMOIGNAGE */
+
+#temoignage{
+    background-color: #EFEFEF;
+    padding: 60px 0;
+}
+
+#temoignage article{
+    width:460px;
+    height:270px;
+    float:left;
+    border-radius: 10px
+}
+
+#temoignage article:first-child{
+    margin-right: 20px;
+}
+
+.overlay{
+    background: rgba(255,255,255,0.90);
+    height: 100%;
+    width:190px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+article h4{
+    border-bottom: 1px solid #ddd;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#temoignage p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.second-button{
+    color: #fff;
+    background-color: #ff7a00;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+
+.second-button:hover{
+    color:#02B8DD;
+}
+/* CONTACT*/
+
+#contact{
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contact h3{
+    text-transform:uppercase;
+    margin: 0 auto 20px auto;
+    width: 400px;
+    border-bottom: 1px solid #02B8DD;
+    padding-bottom: 20px;
+}
+
+form{
+    margin : 60px 0 20px 0;
+}
+
+label{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+    color: #777;
+}
+
+input[type='text']{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border-radius: 3px;
+    border: 2px solid #ddd;
+}
+
+.third-button{
+    color:#fff;
+    font-size:20px;
+    font-weight:bold;
+    padding:11px;
+    background-color: #02B8DD;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.third-button:hover{
+    color:#fff;
+    background-color: #444;
+}
+
+/* FOOTER */
+
+footer{
+    height:260px;
+    background-color: #444;
+}
+
+footer h1{
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+.copyright{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    color: #777;
+}
 
 
