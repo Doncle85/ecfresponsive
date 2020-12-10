@@ -286,6 +286,31 @@ footer h1{
         font-size: 45px;
         color: pink;
     }
+
+    /* MISSIONS */
+    header
+    {
+        height: 100px;
+        position: fixed;
+        background-color:#02B8DD;
+    }
+
+    #missions ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #missions ul li{
+        padding-top: 140px;
+        text-align: center;
+        margin-right: 10px;
+        flex: auto;
+
+    }
+
+
+
 }
 
 
